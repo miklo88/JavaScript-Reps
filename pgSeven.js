@@ -40,9 +40,9 @@ const c = 50;
 const color = c > 10 ? "red" : "blue";
 console.log(color);
 
-/// switches. another way to evaluate a condition
+/// SWITCH. another way to evaluate a condition
 
-const vibrance = 'purple';
+const vibrance = "purple";
 
 switch (vibrance) {
   case "yellow":
