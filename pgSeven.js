@@ -38,5 +38,19 @@ if (x > 5 && y > 15) {
 // const c = 5;
 const c = 50;
 const color = c > 10 ? "red" : "blue";
-
 console.log(color);
+
+/// switches. another way to evaluate a condition
+
+const vibrance = 'purple';
+
+switch (vibrance) {
+  case "yellow":
+    console.log("color is yellow");
+    break;
+  case "orange":
+    console.log("color is orange");
+    break;
+  default:
+    console.log("color is NOT yellow or orange");
+}
