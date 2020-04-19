@@ -16,4 +16,12 @@ function subtractNums(num1, num2) {
   return num1 - num2;
 }
 /// then you console log the function with values for your params to execute it.
-console.log(subtractNums(9, 5));
+console.log(subtractNums(9, 5)); // 4
+
+////////ARROW FUNCTIONS
+// cleans everything up. introduced in 2015 ES6 - going to clean up our previous function subractNums
+const subractNums = (num1, num2) => num1 - num2;
+console.log(subtractNums(30, 19));
+// couple things. the return is gone because this is just one expression we're passing.
+// no variables being assigned etc. even the curly braces can be dropped as well. This is a great thing to do
+// for any of the higher order array methods.
