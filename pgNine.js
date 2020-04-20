@@ -1,5 +1,3 @@
-// const titleNine = "///////////// THIS IS PAGE NINE /////////////";
-// console.log(titleNine);
 const titleNine = () => "///////////// THIS IS PAGE NINE /////////////";
 console.log(titleNine());
 /////// OBJECT ORIENTED PROGRAMMING
