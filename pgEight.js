@@ -1,6 +1,5 @@
-const titleEight = "//////////// THIS IS PAGE EIGHT /////////////";
-console.log(titleEight);
-
+const titleEight = () => "//////////// THIS IS PAGE EIGHT /////////////";
+console.log(titleEight());
 ////////////// FUNCTIONS
 
 // basic mathematical function. in the parenthesese you can pass parameters. ex. num1, num2

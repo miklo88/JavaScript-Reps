@@ -1,6 +1,7 @@
-const titleNine = "///////////// THIS IS PAGE NINE /////////////";
-console.log(titleNine);
-
+// const titleNine = "///////////// THIS IS PAGE NINE /////////////";
+// console.log(titleNine);
+const titleNine = () => "///////////// THIS IS PAGE NINE /////////////";
+console.log(titleNine());
 /////// OBJECT ORIENTED PROGRAMMING
 
 /////// constructor function - all constructor functions need to start with a capital.
@@ -26,6 +27,23 @@ Soldier.prototype.getBrithYear = function () {
 Soldier.prototype.getFullName = function () {
   return `${this.firstName} ${this.lastName}`;
 };
+//// es6 classes aka syntatic sugar. this class does the same thing as the code above. just a lot cleaner.
+// developers from other backgrounds can transition into JavaScript easier with this new pizzazz. "jazz hands"
+// class Soldier {
+//   constructor(firstName, lastName, dob) {
+//     this.firstName = firstName;
+//     this.lastName = lastName;
+//     this.dob = new Date(dob);
+//   }
+//   getBirthYear() {
+//     return this.dob.getFullYear();
+//   }
+//   getFullName() {
+//     return `${this.firstName} ${this.lastName}`;
+//   }
+// }
+///////////////////////// es6 class
+
 // Instantiate object
 // creating as many different soldiers based off of our constructor function soldier object.
 const soldier1 = new Soldier("Carlos", "Concepcion", "4-4-1960");
