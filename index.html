@@ -2,23 +2,68 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <title>Basic JavaScript Practice from Traversy Media</title>
+    <title>JavaScript Practice</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="" />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>
-      Welcome! Bienvenidos!
-    </h1>
-    <p>
-      You're going to wan't to go under the hood and open your console for these
-      puppies.
-    </p>
+    <header>
+      <h1>
+        Welcome! Bienvenidos!
+      </h1>
+      <p>
+        You're going to wan't to go under the hood and open your console for
+        this project.
+      </p>
+    </header>
+    <section class="container">
+      <!---------------------------------- form for page ten -->
+      <form id="form-ten">
+        <h1>pgTen Form</h1>
+        <div>
+          <label for="nickName">Nickname:</label>
+          <input type="text" id="nickName" />
+        </div>
+        <div>
+          <label for="phone">Phone:</label>
+          <input type="text" id="phone" />
+        </div>
+        <input class="button" type="submit" value="Submit" />
+      </form>
+
+      <ul class="things">
+        <li class="thing">Thing 1</li>
+        <li class="thing">Thing 2</li>
+        <li class="thing">Thing 3</li>
+      </ul>
+
+      <!---------------------------------- form for page eleven -->
+      <h1>Page Eleven Form</h1>
+      <form id="my-form">
+        <h1>Add User</h1>
+        <div class="msg"></div>
+        <div>
+          <label for="name">Name:</label>
+          <input type="text" id="name" />
+        </div>
+        <div>
+          <label for="email">Email:</label>
+          <input type="text" id="email" />
+        </div>
+        <input class="btn" type="submit" value="Submit" />
+      </form>
+      <ul id="users"></ul>
+    </section>
+
     <script src="pgOne.js"></script>
     <script src="pgThree.js"></script>
     <script src="pgFour.js"></script>
     <script src="pgFive.js"></script>
     <script src="pgSix.js"></script>
     <script src="pgSeven.js"></script>
+    <script src="pgEight.js"></script>
+    <script src="pgNine.js"></script>
+    <script src="pgTen.js"></script>
+    <script src="pgEleven.js"></script>
   </body>
 </html>
