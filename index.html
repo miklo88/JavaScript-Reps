@@ -2,18 +2,44 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <title>Basic JavaScript Practice from Traversy Media</title>
+    <title>JavaScript Practice</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="" />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>
-      Welcome! Bienvenidos!
-    </h1>
-    <p>
-      You're going to wan't to go under the hood and open your console for these
-      puppies.
-    </p>
+    <header>
+      <h1>
+        Welcome! Bienvenidos!
+      </h1>
+      <p>
+        You're going to wan't to go under the hood and open your console for
+        these puppies.
+      </p>
+    </header>
+    <section class="container">
+      <form id="my-form">
+        <h1>Add User</h1>
+        <div class="msg"></div>
+        <div>
+          <label for="name">Name:</label>
+          <input type="text" id="name" />
+        </div>
+        <div>
+          <label for="email">Email:</label>
+          <input type="text" id="email" />
+        </div>
+        <input class="btn" type="submit" value="Submit" />
+      </form>
+
+      <ul id="users"></ul>
+
+      <!-- <ul class="items">
+      <li class="item">Item 1</li>
+      <li class="item">Item 2</li>
+      <li class="item">Item 3</li>
+    </ul> -->
+    </section>
+
     <script src="pgOne.js"></script>
     <script src="pgThree.js"></script>
     <script src="pgFour.js"></script>
@@ -22,5 +48,6 @@
     <script src="pgSeven.js"></script>
     <script src="pgEight.js"></script>
     <script src="pgNine.js"></script>
+    <script src="pgTen.js"></script>
   </body>
 </html>
