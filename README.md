@@ -1,4 +1,4 @@
-# JavaScript-Reps - alert('WIP');
+# JavaScript-Reps
 
 This lil repo was created in mind to really get down to basics and get your basic JavaScript foundation down stat. This will feel like mental cardio if you do it right.
 
